@@ -5,3 +5,4 @@ supprimer. Le projet est divisé en deux parties : un dossier /frontend (interfa
 /backend (API et stockage des tâches).
 Enok a géré le frontend
 Mouhamadou a géré le backend
+Mouhamadou fait les tests
