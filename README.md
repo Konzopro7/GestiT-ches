@@ -9,7 +9,7 @@ Le dépôt sert aussi à mettre en pratique le travail collaboratif avec Git et 
 
 ## Équipe
 
-- **Enok** : responsable de l'interface (frontend).
+- **Enock** : responsable de l'interface (frontend).
 - **Mouhamadou** : responsable de l'API et du stockage (backend), des tests et de la coordination technique.
 
 ## Où en est le projet ?
