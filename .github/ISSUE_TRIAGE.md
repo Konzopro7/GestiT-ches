@@ -8,4 +8,4 @@ Quand une issue est créée, prends une minute pour vérifier qu'elle ne décrit
 - `priorité: haute` indique qu'il faut traiter le besoin avant les tâches ordinaires.
 - `bloqué` indique qu'une information, une décision ou une dépendance manque. Ajoute un commentaire pour préciser ce qui est attendu.
 
-Le milestone indique le sprint visé, pas une date promise. On choisit Sprint 1 pour la préparation et les premiers parcours; Sprint 2 pour les autres opérations, les vérifications et la finalisation. Les dates de fin seront ajoutées quand l'équipe connaîtra l'échéance officielle.
+Le milestone indique le sprint visé. On choisit Sprint 1 pour la préparation et les premiers parcours; Sprint 2 pour les autres opérations, les vérifications et la finalisation. Les milestones actuels portent déjà les dates du 23 et du 30 octobre 2026. Vérifie qu'elles correspondent à l'échéancier du cours avant de les utiliser comme dates de remise.
