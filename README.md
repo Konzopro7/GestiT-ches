@@ -1,50 +1,55 @@
-# GestiT-ches
-une application web simple de gestion de tâches personnelles
- une personne peut créer une tâche (titre, description, date d'échéance), la marquer comme complétée, et la
-supprimer. Le projet est divisé en deux parties : un dossier /frontend (interface utilisateur) et un dossier
-/backend (API et stockage des tâches).
-Enok a géré le frontend
-Mouhamadou a géré le backend
-Mouhamadou fait les tests
-## Stratégie de branchement
+# GestiTâches
 
-Pour le projet **GestiTâches**, notre équipe a choisi d'utiliser la stratégie **GitHub Flow**.
+GestiTâches est un petit projet d'équipe autour d'une application de gestion des tâches personnelles. L'idée est simple : permettre à une personne d'ajouter une tâche avec un titre, une description et une date d'échéance, de la marquer comme terminée ou de la supprimer.
 
-Nous avons choisi cette stratégie parce qu'elle est simple à comprendre et à utiliser pour un projet de courte durée. Elle permet à chaque membre de l'équipe de travailler sur une fonctionnalité ou une correction dans une branche séparée sans modifier directement la branche principale.
+Le dépôt sert aussi à mettre en pratique le travail collaboratif avec Git et GitHub. L'application est organisée en deux parties :
 
-La branche `main` contient toujours une version stable du projet.
+- `frontend/` : l'interface utilisée par la personne.
+- `backend/` : l'API et le stockage des tâches.
 
-Pour chaque nouvelle fonctionnalité ou correction, une nouvelle branche est créée à partir de `main`. Une fois le travail terminé et testé, les modifications sont intégrées dans `main` à l'aide d'une Pull Request.
+## Équipe
 
-### Convention de nommage des branches
+- **Enok** : responsable de l'interface (frontend).
+- **Mouhamadou** : responsable de l'API et du stockage (backend), des tests et de la coordination technique.
 
-Nous utiliserons la convention suivante :
+## Où en est le projet ?
 
-- `feature/nom-court` : pour l'ajout d'une nouvelle fonctionnalité.
-- `fix/nom-court` : pour la correction d'un problème ou d'un bug.
+Le dépôt prépare l'organisation de l'équipe et le backlog. Les dossiers de l'application peuvent être complétés au fil des prochaines tâches; ce dépôt ne prétend pas présenter une application déjà terminée.
 
-Exemples :
+## Travailler avec GitHub Flow
 
-- `feature/ajout-tache`
-- `feature/modifier-tache`
-- `feature/supprimer-tache`
-- `feature/interface-frontend`
-- `feature/api-backend`
-- `fix/validation-formulaire`
-- `fix/erreur-suppression`
+Nous utilisons GitHub Flow pour que chaque changement puisse être relu avant d'entrer dans `main`.
 
-Les noms des branches doivent être courts, descriptifs, écrits en minuscules et utiliser des tirets `-` pour séparer les mots.
+1. Mettre `main` à jour avant de commencer : `git switch main` puis `git pull`.
+2. Créer une branche pour une seule tâche : `git switch -c feature/ajout-tache` ou `git switch -c fix/validation-titre`.
+3. Faire des commits courts qui expliquent le changement, par exemple `Ajoute la validation du titre`.
+4. Envoyer la branche sur GitHub avec `git push -u origin feature/ajout-tache`.
+5. Ouvrir une Pull Request vers `main`. Expliquer ce qui a changé, pourquoi, et comment le vérifier.
+6. Demander une revue à l'autre membre. Répondre aux commentaires et pousser les ajustements sur la même branche.
+7. Après approbation et vérifications, fusionner la PR puis supprimer la branche.
 
-### Fonctionnement
+La branche `main` est la version de référence du projet. On évite d'y pousser directement : les changements passent par une Pull Request. Les branches commencent par `feature/` pour une nouveauté ou `fix/` pour une correction. Le reste du nom est court, en minuscules, et les mots sont séparés par des tirets.
 
-1. Partir de la branche `main`.
-2. Créer une branche pour la tâche à réaliser.
-3. Effectuer les modifications nécessaires.
-4. Faire des commits avec des messages clairs.
-5. Envoyer la branche sur GitHub.
-6. Créer une Pull Request.
-7. Faire vérifier les modifications par un membre de l'équipe.
-8. Fusionner la branche dans `main` lorsque le travail est validé.
-9. Supprimer la branche après la fusion.
+### Vérifier son accès au dépôt
 
-Cette méthode nous permettra de travailler en parallèle tout en gardant la branche `main` stable et organisée.
+Après avoir obtenu l'accès au dépôt, on peut vérifier que l'authentification fonctionne sans toucher à `main` :
+
+```bash
+git clone https://github.com/Konzopro7/GestiT-ches.git
+cd GestiT-ches
+git switch -c test/nom-prenom
+echo "Vérification d'accès Git" > test-acces.txt
+git add test-acces.txt
+git commit -m "Vérifie l'accès au dépôt"
+git push -u origin test/nom-prenom
+```
+
+Une fois le push confirmé, supprimer le fichier et la branche de test, ou ouvrir une PR de nettoyage si le fichier a déjà été partagé. Ne pas tester les permissions en tentant de contourner les règles de `main`.
+
+## Backlog et contributions
+
+Le fichier [BACKLOG.md](BACKLOG.md) décrit les premières user stories et leurs critères d'acceptation. Les modèles de Pull Request et d'issues se trouvent dans `.github/`. Avant d'ouvrir une issue, vérifier qu'une demande équivalente n'existe pas déjà.
+
+## Démarrage
+
+Les dossiers `frontend/` et `backend/` décrivent leur périmètre et leur état actuel. Les étapes d'installation et de lancement seront ajoutées lorsque les technologies de l'application seront choisies.
