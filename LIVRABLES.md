@@ -4,14 +4,14 @@ Dernière vérification : 4 novembre 2026.
 
 | Partie | État | Éléments et suite |
 |---|---|---|
-| 1. Dépôt collaboratif | Partiel | README, `.gitignore`, dossiers et consignes de clonage rédigés. Vérifier l'accès d'Enok. |
+| 1. Dépôt collaboratif | Partiel | README, `.gitignore`, dossiers et consignes de clonage rédigés. Une invitation avec le rôle écriture a été envoyée à `omegashenron23`; Enok doit l'accepter pour contribuer. |
 | 2. Stratégie de branchement | Terminé | GitHub Flow et conventions expliqués dans le README. |
 | 3. Protection de `main` | Partiel | GitHub exige une PR et une approbation; les règles s'appliquent aussi aux administrateurs. Le test de push direct a été refusé (`GH006`). Il reste à prendre la capture de l'essai et des réglages. Aucun contrôle CI n'est configuré. |
 | 4. Modèles GitHub | Partiel | Modèle de PR, modèles de bogue et d'amélioration, configuration des issues préparés dans la PR #14. La fusion reste à faire après revue. |
 | 5. Labels et milestones | Partiel | Les cinq labels requis existent. Les milestones déjà présents ont été renommés `Sprint 1` et `Sprint 2`, et les huit issues y sont rattachées. Leurs échéances actuelles sont le 23 et le 30 octobre 2026; vérifiez qu'elles correspondent bien au calendrier du cours. |
 | 6. Backlog | Terminé | Huit histoires avec critères d'acceptation sont dans `BACKLOG.md`; les issues #6 à #13 sont créées et classées par label et milestone. |
-| 7. Pull Requests et revue | Partiel | La PR principale (#14) et deux PR indépendantes (#15 et #16) sont ouvertes. Une revue réelle par Enok, les approbations requises et la fusion restent à faire; aucune revue n'est simulée ici. |
-| 8. CODEOWNERS | Partiel | Le responsable backend est indiqué avec le compte vérifié du propriétaire du dépôt. Le compte GitHub d'Enok doit être confirmé avant de compléter la règle frontend. |
+| 7. Pull Requests et revue | Partiel | La PR principale (#14) et deux PR indépendantes (#15 et #16) sont ouvertes. La revue réelle et la fusion restent à faire après qu'Enok a accepté son invitation; aucune approbation n'est simulée. |
+| 8. CODEOWNERS | Terminé | `/frontend/` est attribué à `@Omegashenron23` et `/backend/` à `@Konzopro7`. Le compte d'Enok a été vérifié sur GitHub. |
 
 ## Liens vérifiés
 
