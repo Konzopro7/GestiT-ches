@@ -7,10 +7,10 @@ Dernière vérification : 4 novembre 2026.
 | 1. Dépôt collaboratif | Partiel | README, `.gitignore`, dossiers et consignes de clonage rédigés. Vérifier l'accès d'Enok. |
 | 2. Stratégie de branchement | Terminé | GitHub Flow et conventions expliqués dans le README. |
 | 3. Protection de `main` | Partiel | GitHub indique une PR obligatoire et une approbation minimale. Aucun contrôle CI n'est configuré. Conserver une capture de ces réglages et faire le test de push refusé depuis un compte membre. |
-| 4. Modèles GitHub | Terminé | Modèle de PR, modèles de bogue et d'amélioration, configuration des issues. |
-| 5. Labels et milestones | À faire | Créer/valider les cinq labels et les deux milestones sur GitHub; ajouter les dates d'échéance seulement quand la date officielle du devoir est connue. |
-| 6. Backlog | Partiel | Huit histoires et critères sont décrits dans `BACKLOG.md`. Créer les issues correspondantes et les classer. |
-| 7. Pull Requests et revue | Partiel | Les changements sont préparés sur une branche dédiée. Il faut ouvrir/faire relire la PR par Enok et conserver la preuve de son approbation; aucune revue n'est simulée ici. Deux changements indépendants restent à proposer dans des PR distinctes après cette première revue. |
+| 4. Modèles GitHub | Partiel | Modèle de PR, modèles de bogue et d'amélioration, configuration des issues préparés dans la PR #14. La fusion reste à faire après revue. |
+| 5. Labels et milestones | Partiel | Les cinq labels requis existent. Les milestones déjà présents ont été renommés `Sprint 1` et `Sprint 2`, et les huit issues y sont rattachées. Leurs échéances actuelles sont le 23 et le 30 octobre 2026; vérifiez qu'elles correspondent bien au calendrier du cours. |
+| 6. Backlog | Terminé | Huit histoires avec critères d'acceptation sont dans `BACKLOG.md`; les issues #6 à #13 sont créées et classées par label et milestone. |
+| 7. Pull Requests et revue | Partiel | La PR principale (#14) et deux PR indépendantes (#15 et #16) sont ouvertes. Une revue réelle par Enok, les approbations requises et la fusion restent à faire; aucune revue n'est simulée ici. |
 | 8. CODEOWNERS | Partiel | Le responsable backend est indiqué avec le compte vérifié du propriétaire du dépôt. Le compte GitHub d'Enok doit être confirmé avant de compléter la règle frontend. |
 
 ## Liens vérifiés
@@ -18,7 +18,11 @@ Dernière vérification : 4 novembre 2026.
 - Dépôt : <https://github.com/Konzopro7/GestiT-ches>
 - Branche de préparation : <https://github.com/Konzopro7/GestiT-ches/tree/feature/organisation-td-collaboratif>
 - Pull Request principale : <https://github.com/Konzopro7/GestiT-ches/pull/14> (en attente de revue).
-- Issues des huit histoires : à ajouter après vérification du backlog existant.
+- PR complémentaire — aide-mémoire de revue : <https://github.com/Konzopro7/GestiT-ches/pull/15> (en attente de revue).
+- PR complémentaire — classement des issues : <https://github.com/Konzopro7/GestiT-ches/pull/16> (en attente de revue).
+- Sprint 1 : <https://github.com/Konzopro7/GestiT-ches/milestone/1>
+- Sprint 2 : <https://github.com/Konzopro7/GestiT-ches/milestone/2>
+- Issues US-01 à US-08 : <https://github.com/Konzopro7/GestiT-ches/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Sprint+1%22>, <https://github.com/Konzopro7/GestiT-ches/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Sprint+2%22>
 
 ## Preuves à joindre au devoir
 
