@@ -17,7 +17,7 @@ Dernière vérification : 4 novembre 2026.
 
 - Dépôt : <https://github.com/Konzopro7/GestiT-ches>
 - Branche de préparation : <https://github.com/Konzopro7/GestiT-ches/tree/feature/organisation-td-collaboratif>
-- Pull Request : à ajouter après sa création.
+- Pull Request principale : <https://github.com/Konzopro7/GestiT-ches/pull/14> (en attente de revue).
 - Issues des huit histoires : à ajouter après vérification du backlog existant.
 
 ## Preuves à joindre au devoir
