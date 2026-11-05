@@ -4,4 +4,4 @@ Ce dossier accueillera les écrans de GestiTâches : consulter la liste, créer 
 
 Le choix des technologies et les commandes de lancement seront documentés quand l'interface sera mise en place. Pour l'instant, aucune commande de démarrage n'est définie.
 
-**Responsable : Enok.**
+**Responsable : Enock.**
